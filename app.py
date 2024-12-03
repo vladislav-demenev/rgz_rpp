@@ -35,4 +35,4 @@ def port():
     return f"Используется порт: {os.getenv('FLASK_RUN_PORT', 'unknown')}"
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False)
